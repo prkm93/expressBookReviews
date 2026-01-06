@@ -1,0 +1,6 @@
+curl --location --request DELETE 'http://localhost:5000/customer/auth/review/1' \
+--header 'Cookie: connect.sid=s%3AT2yk1E-klYtCqRpwnsVccabHohZsquQk.s3RVPyXIxxwMK4PnTjaYiU30zpcQrMYuERAXWXB1tMg'
+
+Status: 
+204 no content 
+

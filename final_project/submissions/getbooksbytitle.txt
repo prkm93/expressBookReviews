@@ -1,0 +1,7 @@
+curl --location 'http://localhost:5000/title/The Book Of Job'
+
+{
+"author": "Unknown",
+"title": "The Book Of Job",
+"reviews": {}
+}

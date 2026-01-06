@@ -1,0 +1,7 @@
+curl --location 'http://localhost:5000/isbn/2'
+
+{
+"author": "Hans Christian Andersen",
+"title": "Fairy tales",
+"reviews": {}
+}

@@ -1,0 +1,38 @@
+curl --location --request PUT 'http://localhost:5000/customer/auth/review/1?comment=nice%20book' \
+--header 'Cookie: connect.sid=s%3AlFrd0wXQ5z4q7wgAL0eOWEowKTvGUhuC.P2w1vIeigkG2giQ%2BEG8tqJNv76l0wArxCha%2B5kFmmR8'
+
+Review added by user: Amit
+
+
+books {
+  '1': {
+    author: 'Chinua Achebe',
+    title: 'Things Fall Apart',
+    reviews: { Ravi: 'awesome book', Amit: 'nice book' }
+  },
+  '2': {
+    author: 'Hans Christian Andersen',
+    title: 'Fairy tales',
+    reviews: {}
+  },
+  '3': {
+    author: 'Dante Alighieri',
+    title: 'The Divine Comedy',
+    reviews: { Amit: 'must read' }
+  },
+  '4': { author: 'Unknown', title: 'The Epic Of Gilgamesh', reviews: {} },
+  '5': { author: 'Unknown', title: 'The Book Of Job', reviews: {} },
+  '6': {
+    author: 'Unknown',
+    title: 'One Thousand and One Nights',
+    reviews: {}
+  },
+  '7': { author: 'Unknown', title: "Njál's Saga", reviews: {} },
+  '8': { author: 'Jane Austen', title: 'Pride and Prejudice', reviews: {} },
+  '9': { author: 'Honoré de Balzac', title: 'Le Père Goriot', reviews: {} },
+  '10': {
+    author: 'Samuel Beckett',
+    title: 'Molloy, Malone Dies, The Unnamable, the trilogy',
+    reviews: {}
+  }
+}
