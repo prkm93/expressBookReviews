@@ -1,0 +1,4 @@
+curl --location --request GET 'http://localhost:5000/review/1' \
+--header 'Cookie: connect.sid=s%3AX5BZcTC1-W2IFrjGChlI_Ks8CmLJhuPy.USfWFkglLCsCxqRlU3gPZ9G6y7MOyXjSvl%2BrlW25T%2Bw'
+
+{}

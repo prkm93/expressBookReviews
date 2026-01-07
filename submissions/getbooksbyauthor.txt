@@ -1,0 +1,26 @@
+curl --location --request GET 'http://localhost:5000/author/Unknown' \
+--header 'Cookie: connect.sid=s%3AT2yk1E-klYtCqRpwnsVccabHohZsquQk.s3RVPyXIxxwMK4PnTjaYiU30zpcQrMYuERAXWXB1tMg'
+
+
+[
+{
+"author": "Unknown",
+"title": "The Epic Of Gilgamesh",
+"reviews": {}
+},
+{
+"author": "Unknown",
+"title": "The Book Of Job",
+"reviews": {}
+},
+{
+"author": "Unknown",
+"title": "One Thousand and One Nights",
+"reviews": {}
+},
+{
+"author": "Unknown",
+"title": "Njál's Saga",
+"reviews": {}
+}
+]

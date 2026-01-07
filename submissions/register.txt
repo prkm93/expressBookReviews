@@ -1,0 +1,9 @@
+curl --location --request POST 'http://localhost:5000/register' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: connect.sid=s%3AT2yk1E-klYtCqRpwnsVccabHohZsquQk.s3RVPyXIxxwMK4PnTjaYiU30zpcQrMYuERAXWXB1tMg' \
+--data-raw '{
+    "username": "Ravi",
+    "password": "Abc@123"
+}'
+
+"User registered successfully"

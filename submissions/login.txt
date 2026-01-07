@@ -1,0 +1,10 @@
+curl --location --request POST 'http://localhost:5000/customer/login' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: connect.sid=s%3AX5BZcTC1-W2IFrjGChlI_Ks8CmLJhuPy.USfWFkglLCsCxqRlU3gPZ9G6y7MOyXjSvl%2BrlW25T%2Bw' \
+--data-raw '{
+    "username": "Ravi",
+    "password": "Abc@123"
+}'
+
+
+User logged in successfully

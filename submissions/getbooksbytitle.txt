@@ -1,0 +1,8 @@
+curl --location --request GET 'http://localhost:5000/title/Pride and Prejudice' \
+--header 'Cookie: connect.sid=s%3AT2yk1E-klYtCqRpwnsVccabHohZsquQk.s3RVPyXIxxwMK4PnTjaYiU30zpcQrMYuERAXWXB1tMg'
+
+{
+    "author": "Jane Austen",
+    "title": "Pride and Prejudice",
+    "reviews": {}
+}

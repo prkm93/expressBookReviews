@@ -1,0 +1,8 @@
+curl --location --request GET 'http://localhost:5000/isbn/2' \
+--header 'Cookie: connect.sid=s%3AT2yk1E-klYtCqRpwnsVccabHohZsquQk.s3RVPyXIxxwMK4PnTjaYiU30zpcQrMYuERAXWXB1tMg'
+
+{
+"author": "Hans Christian Andersen",
+"title": "Fairy tales",
+"reviews": {}
+}
